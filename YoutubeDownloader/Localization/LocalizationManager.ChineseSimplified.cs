@@ -7,6 +7,10 @@ public partial class LocalizationManager
     private static readonly IReadOnlyDictionary<string, string> ChineseLocalization =
         new Dictionary<string, string>
         {
+            [nameof(FFmpegPathLabel)] = "FFmpeg 路径",
+            [nameof(FFmpegPathTooltip)] = "FFmpeg 可执行文件的路径。留空则使用自动检测。",
+            [nameof(FFmpegPathWatermark)] = "自动检测",
+
             [nameof(InjectSubtitlesLabel)] = "注入字幕",
             [nameof(InjectSubtitlesTooltip)] = "将字幕（如果可用）注入到下载的文件中",
             [nameof(InjectTagsLabel)] = "注入媒体标签",
@@ -27,8 +31,7 @@ public partial class LocalizationManager
             [nameof(ParallelLimitLabel)] = "并行下载限制",
             [nameof(ParallelLimitTooltip)] = "允许同时进行的下载任务数量",
             [nameof(FFmpegPathLabel)] = "FFmpeg 路径",
-            [nameof(FFmpegPathTooltip)] =
-                "FFmpeg 可执行文件的路径。留空则使用自动检测。",
+            [nameof(FFmpegPathTooltip)] = "FFmpeg 可执行文件的路径。留空则使用自动检测。",
             [nameof(FFmpegPathWatermark)] = "自动检测",
             [nameof(FFmpegPathResetTooltip)] = "重置为自动检测",
             [nameof(FFmpegPathBrowseTooltip)] = "浏览 FFmpeg 可执行文件",
