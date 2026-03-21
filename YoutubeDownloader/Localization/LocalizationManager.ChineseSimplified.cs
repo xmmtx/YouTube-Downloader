@@ -18,8 +18,7 @@ public partial class LocalizationManager
             [nameof(InjectTagsLabel)] = "注入媒体标签",
             [nameof(InjectTagsTooltip)] = "将媒体标签（如果可用）注入到下载的文件中",
             [nameof(SkipExistingFilesLabel)] = "跳过已存在的文件",
-            [nameof(SkipExistingFilesTooltip)] =
-                "下载多个视频时，跳过输出目录中已存在匹配文件的视频",
+            [nameof(SkipExistingFilesTooltip)] = "下载多个视频时，跳过输出目录中已存在匹配文件的视频",
             [nameof(FileNameTemplateLabel)] = "文件名模板",
             [nameof(FileNameTemplateTooltip)] =
                 @"用于生成下载视频文件名的模板。
@@ -86,15 +85,12 @@ public partial class LocalizationManager
 
 请在设置中更新 FFmpeg 路径，或将其清空以使用自动检测。
 ",
-            [nameof(FFmpegMissingSearchedLabel)] =
-                "在以下目录中搜索了 '{0}'：",
+            [nameof(FFmpegMissingSearchedLabel)] = "在以下目录中搜索了 '{0}'：",
             [nameof(NothingFoundTitle)] = "未找到内容",
-            [nameof(NothingFoundMessage)] =
-                "无法根据你提供的查询或 URL 找到任何视频",
+            [nameof(NothingFoundMessage)] = "无法根据你提供的查询或 URL 找到任何视频",
             [nameof(ErrorTitle)] = "错误",
             [nameof(UpdateDownloadingMessage)] = "正在下载更新至 {0} v{1}...",
-            [nameof(UpdateReadyMessage)] =
-                "更新已下载，将在你退出时安装",
+            [nameof(UpdateReadyMessage)] = "更新已下载，将在你退出时安装",
             [nameof(UpdateInstallNowButton)] = "立即安装",
             [nameof(UpdateFailedMessage)] = "应用程序更新失败",
         };
