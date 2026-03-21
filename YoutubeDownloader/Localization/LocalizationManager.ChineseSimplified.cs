@@ -53,8 +53,7 @@ public partial class LocalizationManager
             [nameof(InjectAltLanguagesTooltip)] =
                 "将替代语言的音频轨道（如果可用）注入到下载的文件中",
             [nameof(InjectSubtitlesLabel)] = "注入字幕",
-            [nameof(InjectSubtitlesTooltip)] =
-                "将字幕（如果可用）注入到下载的文件中",
+            [nameof(InjectSubtitlesTooltip)] = "将字幕（如果可用）注入到下载的文件中",
             [nameof(InjectTagsLabel)] = "注入媒体标签",
             [nameof(InjectTagsTooltip)] = "将媒体标签（如果可用）注入到下载的文件中",
             [nameof(SkipExistingFilesLabel)] = "跳过已存在的文件",
@@ -73,8 +72,7 @@ public partial class LocalizationManager
             [nameof(ParallelLimitLabel)] = "并行下载限制",
             [nameof(ParallelLimitTooltip)] = "允许同时进行的下载任务数量",
             [nameof(FFmpegPathLabel)] = "FFmpeg 路径",
-            [nameof(FFmpegPathTooltip)] =
-                "FFmpeg 可执行文件的路径。留空则使用自动检测。",
+            [nameof(FFmpegPathTooltip)] = "FFmpeg 可执行文件的路径。留空则使用自动检测。",
             [nameof(FFmpegPathWatermark)] = "自动检测",
             [nameof(FFmpegPathResetTooltip)] = "重置为自动检测",
             [nameof(FFmpegPathBrowseTooltip)] = "浏览 FFmpeg 可执行文件",
@@ -127,15 +125,12 @@ public partial class LocalizationManager
 
                 请在设置中更新 FFmpeg 路径，或将其清空以使用自动检测。
                 """,
-            [nameof(FFmpegMissingSearchedLabel)] =
-                "在以下目录中搜索了 '{0}'：",
+            [nameof(FFmpegMissingSearchedLabel)] = "在以下目录中搜索了 '{0}'：",
             [nameof(NothingFoundTitle)] = "未找到内容",
-            [nameof(NothingFoundMessage)] =
-                "无法根据你提供的查询或 URL 找到任何视频",
+            [nameof(NothingFoundMessage)] = "无法根据你提供的查询或 URL 找到任何视频",
             [nameof(ErrorTitle)] = "错误",
             [nameof(UpdateDownloadingMessage)] = "正在下载更新至 {0} v{1}...",
-            [nameof(UpdateReadyMessage)] =
-                "更新已下载，将在你退出时安装",
+            [nameof(UpdateReadyMessage)] = "更新已下载，将在你退出时安装",
             [nameof(UpdateInstallNowButton)] = "立即安装",
             [nameof(UpdateFailedMessage)] = "应用程序更新失败",
         };
