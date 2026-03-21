@@ -4,54 +4,9 @@ namespace YoutubeDownloader.Localization;
 
 public partial class LocalizationManager
 {
-    private static readonly IReadOnlyDictionary<string, string> ChineseLocalization = new Dictionary<string, string>
+    private static readonly IReadOnlyDictionary<string, string> ChineseLocalization =
+        new Dictionary<string, string>
         {
-            // Dashboard (控制面板)
-            [nameof(QueryWatermark)] = "粘贴链接或搜索",
-            [nameof(QueryTooltip)] =
-                "接受任何有效的 YouTube 网页链接或视频 ID。在开头添加问号 (?) 可进行文本搜索。",
-            [nameof(ProcessQueryTooltip)] = "开始查询 (Enter)",
-            [nameof(AuthTooltip)] = "身份验证",
-            [nameof(SettingsTooltip)] = "设置",
-            [nameof(DashboardPlaceholder)] = """
-                复制并粘贴 **网页链接** 或 **搜索** 以开始下载
-                使用 **Shift+Enter** 可添加多个项目
-                """,
-            [nameof(DownloadsFileColumnHeader)] = "文件",
-            [nameof(DownloadsStatusColumnHeader)] = "状态",
-            [nameof(ContextMenuRemoveSuccessful)] = "移除已完成的下载",
-            [nameof(ContextMenuRemoveInactive)] = "移除未激活的下载",
-            [nameof(ContextMenuRestartFailed)] = "重下失败的下载",
-            [nameof(ContextMenuCancelAll)] = "取消所有下载",
-            [nameof(DownloadStatusEnqueued)] = "正在排队...",
-            [nameof(DownloadStatusCompleted)] = "已完成",
-            [nameof(DownloadStatusCanceled)] = "已取消",
-            [nameof(DownloadStatusFailed)] = "失败",
-            [nameof(ClickToCopyErrorTooltip)] = "提示：点击可复制此错误信息",
-            [nameof(ShowFileTooltip)] = "显示文件",
-            [nameof(PlayTooltip)] = "播放",
-            [nameof(CancelDownloadTooltip)] = "取消下载",
-            [nameof(RestartDownloadTooltip)] = "重新下载",
-
-            // Settings (设置)
-            [nameof(SettingsTitle)] = "设置",
-            [nameof(ThemeLabel)] = "主题",
-            [nameof(ThemeTooltip)] = "首选的用户界面主题",
-            [nameof(LanguageLabel)] = "语言Language",
-            [nameof(LanguageTooltip)] = "首选的用户界面显示语言",
-            [nameof(AutoUpdateLabel)] = "自动更新",
-            [nameof(AutoUpdateTooltip)] = """
-                每次启动时执行自动更新。
-                **警告：** 建议保持此选项启用，以确保应用程序与最新版本的 YouTube 兼容。
-                """,
-            [nameof(PersistAuthLabel)] = "持久化身份验证",
-            [nameof(PersistAuthTooltip)] = """
-                将身份验证 Cookie 保存到文件中，以便在不同会话之间持久化。
-                **警告：** 尽管 Cookie 是加密存储的，但拥有系统访问权限的攻击者仍可能恢复它们。
-                """,
-            [nameof(InjectAltLanguagesLabel)] = "注入替代语言",
-            [nameof(InjectAltLanguagesTooltip)] =
-                "将替代语言的音频轨道（如果可用）注入到下载的文件中",
             [nameof(InjectSubtitlesLabel)] = "注入字幕",
             [nameof(InjectSubtitlesTooltip)] = "将字幕（如果可用）注入到下载的文件中",
             [nameof(InjectTagsLabel)] = "注入媒体标签",
