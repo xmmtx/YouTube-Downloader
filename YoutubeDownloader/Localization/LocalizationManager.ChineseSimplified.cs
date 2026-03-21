@@ -21,7 +21,7 @@ public partial class LocalizationManager
             [nameof(SkipExistingFilesTooltip)] =
                 "下载多个视频时，跳过输出目录中已存在匹配文件的视频",
             [nameof(FileNameTemplateLabel)] = "文件名模板",
-            [nameof(FileNameTemplateTooltip)] = 
+            [nameof(FileNameTemplateTooltip)] =
                 @"用于生成下载视频文件名的模板。
 
 可用标记：
@@ -57,14 +57,14 @@ public partial class LocalizationManager
 
             // Dialog messages (对话框消息)
             [nameof(UkraineSupportTitle)] = "感谢你支持乌克兰！",
-            [nameof(UkraineSupportMessage)] = 
+            [nameof(UkraineSupportMessage)] =
                 @"由于俄罗斯正对我的国家发动一场种族灭绝战争，我向所有在我们的自由之战中继续支持乌克兰的人表示感谢。
 
 点击“了解更多”以寻找你可以提供帮助的途径。
 ",
             [nameof(LearnMoreButton)] = "了解更多",
             [nameof(UnstableBuildTitle)] = "不稳定版本警告",
-            [nameof(UnstableBuildMessage)] = 
+            [nameof(UnstableBuildMessage)] =
                 @"你正在使用 {0} 的开发版本。这些版本未经严格测试，可能包含漏洞。
 
 开发版本已禁用自动更新。
@@ -73,14 +73,14 @@ public partial class LocalizationManager
 ",
             [nameof(SeeReleasesButton)] = "查看发布版本",
             [nameof(FFmpegMissingTitle)] = "缺少 FFmpeg",
-            [nameof(FFmpegMissingMessage)] = 
+            [nameof(FFmpegMissingMessage)] =
                 @"{0} 需要 FFmpeg 才能工作。请下载它并将其放在应用程序目录中或系统 PATH 变量中，或者在设置中配置其位置。
 
 或者，你也可以下载集成了 FFmpeg 的 {0} 版本。请寻找未标记为 *.Bare 的发布资源。
 
 点击“下载”跳转到 FFmpeg 下载页面。
 ",
-            [nameof(FFmpegPathMissingMessage)] = 
+            [nameof(FFmpegPathMissingMessage)] =
                 @"此应用需要 FFmpeg 才能运行，但配置的路径不存在：
 {0}
 
