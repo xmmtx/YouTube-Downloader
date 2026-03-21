@@ -171,10 +171,10 @@ jobs:
       - name: Notify KOOK (Card Message)
         run: |
           curl -X POST 'https://www.kookapp.cn/api/v3/message/create' \
-          -H 'Authorization: Bot ${{ secrets.KOOK_BOT_TOKEN }}' \
+          -H 'Authorization: Bot 1/NDYwMDk=/Ke6i+yW7hWkixTOmIj2NzQ==' \
           -H 'Content-Type: application/json' \
           -d '{
             "type": 10,
-            "target_id": "${{ secrets.KOOK_CHANNEL_ID }}",
+            "target_id": "5809850356867094",
             "content": "[{\"type\":\"card\",\"theme\":\"success\",\"size\":\"lg\",\"modules\":[{\"type\":\"header\",\"text\":{\"type\":\"plain-text\",\"content\":\"🚀 CodePivot 构建报告\"}},{\"type\":\"section\",\"text\":{\"type\":\"kmarkdown\",\"content\":\"**项目：** ${{ github.event.repository.name }}\\n**版本：** `${{ github.ref_name }}`\\n\\n新版本已成功发布至 GitHub Release。所有平台（Windows/Linux/macOS）的二进制文件已就绪。\"}},{\"type\":\"divider\"},{\"type\":\"action-group\",\"elements\":[{\"type\":\"button\",\"theme\":\"primary\",\"text\":{\"type\":\"plain-text\",\"content\":\"📦 立即下载\"},\"click\":\"link\",\"value\":\"${{ github.event.repository.html_url }}/releases/tag/${{ github.ref_name }}\"}]}]}]"
           }'
