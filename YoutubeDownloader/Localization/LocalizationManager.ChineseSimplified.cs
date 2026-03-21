@@ -4,8 +4,7 @@ namespace YoutubeDownloader.Localization;
 
 public partial class LocalizationManager
 {
-    private static readonly IReadOnlyDictionary<string, string> ChineseLocalization =
-        new Dictionary<string, string>
+    private static readonly IReadOnlyDictionary<string, string> ChineseLocalization = new Dictionary<string, string>
         {
             // Dashboard (控制面板)
             [nameof(QueryWatermark)] = "粘贴链接或搜索",
@@ -54,8 +53,7 @@ public partial class LocalizationManager
             [nameof(InjectAltLanguagesTooltip)] =
                 "将替代语言的音频轨道（如果可用）注入到下载的文件中",
             [nameof(InjectSubtitlesLabel)] = "注入字幕",
-            [nameof(InjectSubtitlesTooltip)] =
-                "将字幕（如果可用）注入到下载的文件中",
+            [nameof(InjectSubtitlesTooltip)] = "将字幕（如果可用）注入到下载的文件中",
             [nameof(InjectTagsLabel)] = "注入媒体标签",
             [nameof(InjectTagsTooltip)] = "将媒体标签（如果可用）注入到下载的文件中",
             [nameof(SkipExistingFilesLabel)] = "跳过已存在的文件",
