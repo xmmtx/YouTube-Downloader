@@ -3,9 +3,10 @@ namespace YoutubeDownloader.Localization;
 public enum Language
 {
     System,
+    Chinese(Simplified),
     English,
-    Ukrainian,
-    German,
     French,
+    German,
     Spanish,
+    Ukrainian,
 }
