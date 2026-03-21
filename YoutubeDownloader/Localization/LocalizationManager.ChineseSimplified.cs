@@ -4,7 +4,7 @@ namespace YoutubeDownloader.Localization;
 
 public partial class LocalizationManager
 {
-    private static readonly IReadOnlyDictionary<string, string> EnglishLocalization =
+    private static readonly IReadOnlyDictionary<string, string> ChineseSimplifiedLocalization =
         new Dictionary<string, string>
         {
             // Dashboard
