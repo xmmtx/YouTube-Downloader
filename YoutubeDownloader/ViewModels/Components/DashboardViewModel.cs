@@ -356,7 +356,7 @@ public partial class DashboardViewModel : ViewModelBase
     private void RemoveDownload(DownloadViewModel download)
     {
         Downloads.Remove(download);
-        download.CancelCommand.Execute(null);
+        download.CancelCommand.ExecuteIfCan(null);
         download.Dispose();
     }
 
@@ -420,7 +420,7 @@ public partial class DashboardViewModel : ViewModelBase
     private void CancelAllDownloads()
     {
         foreach (var download in Downloads)
-            download.CancelCommand.Execute(null);
+            download.CancelCommand.ExecuteIfCan(null);
     }
 
     protected override void Dispose(bool disposing)
