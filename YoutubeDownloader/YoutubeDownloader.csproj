@@ -47,6 +47,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
     <PackageReference Include="Onova" />
     <PackageReference Include="ThisAssembly.Project" PrivateAssets="all" />
+    <PackageReference Include="Tmds.DBus.Protocol" />
     <PackageReference Include="WebView.Avalonia" />
     <PackageReference Include="WebView.Avalonia.Desktop" />
   </ItemGroup>
