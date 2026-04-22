@@ -145,14 +145,12 @@ public partial class DownloadViewModel : ViewModelBase
 
     protected override void Dispose(bool disposing)
     {
-        if (disposing)
-        {
-            _eventSubscription.Dispose();
-            _cancellationTokenSource.Dispose();
+        if (_isDisposed)
+            return;
 
-            _isDisposed = true;
-        }
+        _isDisposed = true;
 
-        base.Dispose(disposing);
+        _eventSubscription.Dispose();
+        _cancellationTokenSource.Dispose();
     }
 }
