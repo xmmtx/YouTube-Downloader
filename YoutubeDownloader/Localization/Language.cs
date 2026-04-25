@@ -8,5 +8,6 @@ public enum Language
     German,
     French,
     Spanish,
+    [Description("Chinese (Simplified)")]
     ChineseSimplified,
 }
